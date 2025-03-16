@@ -15,6 +15,10 @@ public class Persona implements Comparable<Persona> {
     private char genero;
     private LocalDate nacimiento;
 
+    
+    /*
+     * Documentar y crear test unitario
+     */
     public Persona() {
         nif = new Nif();
         nombre = "";
