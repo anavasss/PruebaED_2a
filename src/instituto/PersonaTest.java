@@ -18,5 +18,11 @@ class PersonaTest {
 		Persona persona = new Persona();
 		assertEquals(persona.getNif(),new Nif());
 	}
+	
+	@Test
+	void test3() {
+		Persona persona = new Persona();
+		assertEquals(persona.getGenero(), ' ');
+	}
 
 }
