@@ -15,6 +15,9 @@ public class Curso {
     private String nombre;
     private TreeSet<Persona> listaAlumnos;
 
+    /*
+    Documentar y crear test unitario
+    */
     protected String getNombre() {
         return nombre;
     }
