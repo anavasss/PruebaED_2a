@@ -8,8 +8,15 @@ class CursoTest {
 
 	@Test
 	void test() {
-		Curso curso = new Curso("Alonso");
-		assertEquals("Alonso", curso.getNombre());
+		Curso curso = new Curso("Bases");
+		assertEquals("Bases", curso.getNombre());
+	}
+	
+	@Test
+	void test2() {
+		String nombreEsperado = "Entornos";
+		Curso curso = new Curso("Entornos");
+		assertEquals(curso.getNombre(), nombreEsperado);
 	}
 
 }

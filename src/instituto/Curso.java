@@ -22,6 +22,9 @@ public class Curso {
         return nombre;
     }
 
+    /*
+    Documentar y crear test unitario
+    */
     public Curso(String nombre) {
         this.nombre = nombre;
         listaAlumnos = new TreeSet<>();
