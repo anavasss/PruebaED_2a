@@ -40,6 +40,9 @@ public class Persona implements Comparable<Persona> {
                 = LocalDate.of(ano, mes, dia);
     }
 
+    /*
+     * Documentar y crear test unitario
+     */
     public Nif getNif() {
         return nif;
     }

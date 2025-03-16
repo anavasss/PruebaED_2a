@@ -12,5 +12,11 @@ class PersonaTest {
 		Persona persona = new Persona();
 		assertEquals(nombreEsperado, persona.getNombre());
 	}
+	
+	@Test
+	void test2() {
+		Persona persona = new Persona();
+		assertEquals(persona.getNif(),new Nif());
+	}
 
 }
